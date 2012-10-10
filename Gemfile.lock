@@ -1,4 +1,6 @@
 GEM
+  remote: http://gems.github.com/
+  remote: http://gemcutter.org/
   remote: http://rubygems.org/
   specs:
     addressable (2.3.2)
@@ -7,6 +9,11 @@ GEM
       eventmachine (>= 0.12.9)
     eventmachine (1.0.0)
     eventmachine (1.0.0-java)
+    faye-websocket (0.4.6)
+      eventmachine (>= 0.12.0)
+    faye-websocket (0.4.6-java)
+      eventmachine (>= 0.12.0)
+    json (1.7.5-java)
     web-socket-ruby (0.1.0)
 
 PLATFORMS
@@ -14,4 +21,6 @@ PLATFORMS
 
 DEPENDENCIES
   em-websocket
+  faye-websocket
+  json
   web-socket-ruby
